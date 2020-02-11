@@ -6,26 +6,9 @@
 
         <div class="project-header">
           <h1 class="project-title" v-html="$page.post.title" />
-          <div class="project-info">
-
-            <div class="categories-container">
-              <div class="categories">
-                <span class="label">Categories</span>
-                <span 
-                  class="category"
-                  v-for="(category, index) in $page.post.categories" 
-                  :key="index"
-                  v-text="category"
-                />
-              </div>
-            </div>
-
-            <div class="year-container">
-              <span class="label">Year</span>
-              <div v-html="$page.post.date"/>
-            </div>
-          </div>
         </div>
+
+        <g-image :src="$page.post.image" />
 
         <JournalContent :content="$page.post.content" />
 
@@ -39,9 +22,9 @@
 query ProjectPost ($path: String!) {
   post: projectPost (path: $path) {
     title
-    date (format: "YYYY")
     content
-    categories
+    thumbnail
+    image (width: 1024, height: 768, quality: 100)
     project_bg_color
     project_fg_color
   }

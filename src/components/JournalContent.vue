@@ -1,6 +1,6 @@
 <template>
     <div 
-        class="journal-content"
+        class="container journal-container"
         v-html="content"
     />
 </template>
@@ -14,6 +14,10 @@ export default {
 </script>
 
 <style>
+.journal-container {
+  max-width: 840px;
+}
+
 p {
     font-size: 1rem;
     line-height: 1.7;

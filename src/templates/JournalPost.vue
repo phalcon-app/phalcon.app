@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div class="journal">
-      <div class="container journal-container">
+      <div class="container">
 
         <div class="journal-header">
           <h1 v-html="$page.post.title" class="journal-title" />
@@ -21,6 +21,8 @@
           </div>          
         </div>
 
+        <g-image :src="$page.post.image" />
+
         <JournalContent :content="$page.post.content" />
 
       </div>
@@ -35,6 +37,7 @@ query JournalPost ($path: String!) {
     author
     date (format: "D. MMMM YYYY")
     timeToRead
+    image (width: 1024, height: 768, quality: 100)
     content
   }
 }
@@ -61,9 +64,6 @@ export default {
 </script>
 
 <style scoped>
-.journal-container {
-  max-width: 840px;
-}
 .journal-header {
   padding: 2rem 0 4rem 0;
 }
