@@ -21,7 +21,7 @@
           </div>          
         </div>
 
-        <g-image :src="$page.post.image" />
+        <g-image class="journal-image" :src="$page.post.image" />
 
         <JournalContent :content="$page.post.content" />
 
@@ -82,5 +82,9 @@ export default {
 }
 .journal-meta > div:last-of-type {
   margin: 0;
+}
+.journal-image {
+  line-height: 1;
+  margin: 8vh 0 3vh;
 }
 </style>

@@ -1,8 +1,9 @@
 ---
 thumbnail: "/uploads/cody-davis-253925-unsplash.jpg"
 image: "/uploads/cody-davis-253925-unsplash.jpg"
-title: Simple Workout Log
+title: Sorklog
 date: 2020-02-01
+sub_title: is your mate to improve your strength and gain muscle mass 💪 by knowing how you'r training.
 categories:
 - android
 - ios
@@ -11,15 +12,22 @@ project_fg_color: '#1d1e22'
 
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus luctus lacus, vel laoreet urna luctus a. 
+With the focus in made a simple, but useful app, that need no time to manage born **Sorklog** a **s**imple w**ork**out **log**.
 
-1. [Changelist](#1-changelist)
-2. [FAQ](#2-faq)
+Available in 🤖 [Android]() and *coming soon to 🍎 iOS*.
 
-## 1. Changelist
+1. [FAQ](#faq)
+2. [Changelist](#changelist)
+
+## FAQ
+### What's Simple Workout Log?
+It's your pocket sized notebook to track all your exercise and best lifts. The idea behind aims to help you improve and increase weight periodically to maximize your gains 💪.
+
+### How does it work?
+You must track you best lifts of each main exercise. The app will calculate the 1RM weight that you are working on. This weight indicates how much weight you can lift in a one only max repetition. In other words, it measures the max intensity that you are working on and by increasing this, slowly, you will gain muscle mass and improve your strength.
+
+This app give you the tools to easily know the intensity of your workout and you will know if you are improving or not.
+
+## Changelist
 ### 1.0.0
 - 🆕 Android first release. 
-
-## 2. FAQ
-### How can I delete an exercise or a lift?
-If you tap an hold, either an exercise or a lift, it will prompt you to confirmr or cancel the action. **Please note that this actions can be undone.** 

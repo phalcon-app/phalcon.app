@@ -7,10 +7,7 @@
                 :alt="item.node.title"
                 class="thumbnail"
             />
-            <h3 class="project-title">{{ item.node.title }}</h3>
-            <div class="categories">
-                <span class="category" v-for="(item, index) in item.node.categories" :key="index">{{ item }}</span>
-            </div>
+            <h2 class="project-title">{{ item.node.title }}</h2>
             </g-link>
         </div>
     </div>
@@ -47,7 +44,7 @@ export default {
   box-shadow: 0 0 40px -20px rgba(0,0,0,0.25);
 }
 .project-title {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: var(--color-contrast);
   margin: 2rem 0 1rem 0;
 }
