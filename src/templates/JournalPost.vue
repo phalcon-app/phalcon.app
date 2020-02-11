@@ -47,9 +47,14 @@ export default {
   components: {
     JournalContent
   },
+  data() {
+    return {
+      settings: require("../../data/settings.json")
+    }
+  },
   metaInfo () {
     return {
-      title: `${this.$page.post.title} - Phalcon Apps`
+      title: `${this.$page.post.title} - ${this.settings.site_name}`
     }
   }
 }
