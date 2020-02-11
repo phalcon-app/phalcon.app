@@ -2,11 +2,12 @@
 // Learn more: https://gridsome.org/docs/config
 
 module.exports = {
-  siteName: "Portfolio",
-  siteUrl: `https://www.itsnwa.com`,
+  siteName: "Phalcon Apps",
+  siteUrl: 'https://victor-falcon.github.io/',
+  pathPrefix: '/phalcon.app',
   host: "0.0.0.0",
   titleTemplate: "%s - NWA",
-  siteDescription: "Creative technologist",
+  siteDescription: "We try to make small but usefull apps",
   plugins: [
     {
       use: "@gridsome/source-filesystem",
