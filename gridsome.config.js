@@ -6,7 +6,7 @@ module.exports = {
   siteUrl: 'https://victor-falcon.github.io/',
   pathPrefix: '/phalcon.app',
   host: "0.0.0.0",
-  titleTemplate: "%s - NWA",
+  titleTemplate: "%s",
   siteDescription: "We try to make small but usefull apps",
   plugins: [
     {
@@ -24,7 +24,7 @@ module.exports = {
     {
       use: "@gridsome/source-filesystem",
       options: {
-        path: "journal/**/*.md",
+        path: "blog/**/*.md",
         typeName: "JournalPost",
         resolveAbsolutePaths: true,
         remark: {

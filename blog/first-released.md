@@ -1,8 +1,8 @@
 ---
-date: 2019-06-04
-title: VueJS for your next project
-author: Nichlas W. Andersen
-excerpt: Vue (pronounced /vjuː/, like view) is a progressive framework for building user interfaces.
+date: 2020-02-01
+title: First app released
+author: Víctor Falcón
+excerpt: When no plant of the field was yet in the seas, and let birds fly above the earth bring forth living creatures of every tree of the garden. Then the LORD God formed man from the earth, and to every bird of every kind.
 
 ---
 
