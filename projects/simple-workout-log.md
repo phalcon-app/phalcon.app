@@ -5,18 +5,22 @@ date: 2020-02-01
 categories:
 - android
 - ios
-project_bg_color: '#F7F7F7'
-project_fg_color: "#FDC70D"
+project_bg_color: '#fff'
+project_fg_color: '#1d1e22' 
 
 ---
-![](/uploads/ian-dooley-281897-unsplash.jpg)
 
-## Simple Workout Log
+![](/uploads/ian-dooley-281897-unsplash.jpg)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus luctus lacus, vel laoreet urna luctus a. 
 
-Cras gravida felis non sem scelerisque laoreet. Vivamus pellentesque lacus eget neque ullamcorper, id sollicitudin ante ultrices. Fusce facilisis sollicitudin dictum. Proin eu ipsum dolor. Mauris vulputate nulla sed elementum elementum. Duis semper, libero vel mattis venenatis, augue leo tristique tellus, nec congue urna ligula non ipsum. Ut id cursus ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+1. [Changelist](#1-changelist)
+2. [FAQ](#2-faq)
 
-In in orci id augue molestie pharetra. Donec hendrerit nulla ante, in molestie dui vehicula sit amet.
+## 1. Changelist
+### 1.0.0
+- 🆕 Android first release. 
 
-Nulla feugiat at nulla et rutrum. Phasellus tincidunt, velit id rhoncus dapibus, leo nisi consectetur dolor, vitae elementum dolor tellus elementum velit. Mauris sed nisl sit amet sapien molestie laoreet at vel elit. Phasellus elit risus, suscipit ac bibendum vitae, luctus nec lacus. Vestibulum nec semper ligula, vitae mollis quam.
+## 2. FAQ
+### How can I delete an exercise or a lift?
+If you tap an hold, either an exercise or a lift, it will prompt you to confirmr or cancel the action. **Please note that this actions can be undone.** 

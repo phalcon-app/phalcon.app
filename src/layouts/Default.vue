@@ -29,7 +29,7 @@ body {
   --color-base-1: rgb(243, 243, 243);
   --color-contrast: rgb(0, 0, 0);
   --color-contrast-1: rgb(43, 43, 43);
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-family: 'Merriweather', serif;
   margin:0;
   padding: 0;
   font-size: 16px;
@@ -47,6 +47,10 @@ body.dark {
 
 h1 {
   letter-spacing: -0.01em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
 }
 
 .layout {

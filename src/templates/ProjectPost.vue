@@ -27,7 +27,7 @@
           </div>
         </div>
 
-        <div v-html="$page.post.content" class="content" />
+        <JournalContent :content="$page.post.content" />
 
       </div>
 
@@ -49,12 +49,19 @@ query ProjectPost ($path: String!) {
 </page-query>
 
 <script>
+import JournalContent from "@/components/JournalContent"
+
 export default {
+  components: {
+    JournalContent
+  },
+
   metaInfo () {
     return {
       title: this.$page.post.title,
       bodyAttrs: {
-        style: `background-color: ${this.$page.post.project_bg_color ? this.$page.post.project_bg_color : 'var(--color-base)'}; color: ${this.$page.post.project_fg_color ? this.$page.post.project_fg_color : 'var(--color-contrast)'}`
+        style: `background-color: ${this.$page.post.project_bg_color ? this.$page.post.project_bg_color : 'var(--color-base)'};`
+                + `color: ${this.$page.post.project_fg_color ? this.$page.post.project_fg_color : 'var(--color-contrast)'}`
       }
     }
   }
