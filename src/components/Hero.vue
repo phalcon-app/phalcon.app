@@ -41,6 +41,6 @@ export default {
     line-height: 1.68;
     padding: 0;
     margin: 0;
-    opacity: 0.6;
+    color: #666;
 }
 </style>
