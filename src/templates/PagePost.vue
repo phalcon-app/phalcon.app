@@ -1,6 +1,7 @@
 <template>
   <Layout>
     <div class="page">
+
       <div class="container">
 
         <div class="page-header">
@@ -13,6 +14,7 @@
         <JournalContent :content="$page.post.content" />
 
       </div>
+
     </div>
   </Layout>
 </template>
@@ -21,6 +23,7 @@
 query PagePost ($path: String!) {
   post: pagePost (path: $path) {
     title
+    sub_title
     excerpt
     image (width: 1024, height: 768, quality: 100)
     content

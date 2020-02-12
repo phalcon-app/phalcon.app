@@ -1,26 +1,22 @@
 ---
 thumbnail: "/uploads/cody-davis-253925-unsplash.jpg"
 image: "/uploads/cody-davis-253925-unsplash.jpg"
-title: Sorklog
+title: Worke.app
 date: 2020-02-01
 sub_title: is your mate to improve your strength and gain muscle mass 💪 by knowing how you'r training.
-categories:
-- android
-- ios
 project_bg_color: '#fff'
 project_fg_color: '#1d1e22'
-
 ---
 
-With the focus in made a simple, but useful app, that need no time to manage born **Sorklog** a **s**imple w**ork**out **log**.
+With the focus in made a simple, but useful app, that need no time to manage born **Worke.app**.
 
-Available in 🤖 [Android]() and *coming soon to 🍎 iOS*.
+Available in 🤖 [Android]() and *coming soon to* 🍎 *iOS*.
 
 1. [FAQ](#faq)
 2. [Changelist](#changelist)
 
 ## FAQ
-### What's Simple Workout Log?
+### What's Worke.app?
 It's your pocket sized notebook to track all your exercise and best lifts. The idea behind aims to help you improve and increase weight periodically to maximize your gains 💪.
 
 ### How does it work?

@@ -1,7 +1,7 @@
 ---
 title: About
 image: "/uploads/mike-dorner-173502-unsplash.jpg"
-excerpt: When no plant of the field was yet in the seas, and let birds fly above the earth bring forth living creatures of every tree of the garden. Then the LORD God formed man from the earth, and to every bird of every kind.
+sub_title: Hi 👋! I'm an indie developer trying to make lovely apps.
 ---
 
 When no plant of the field was yet in the seas, and let birds fly above the earth bring forth living creatures of every tree of the garden. Then the LORD God formed man from the earth, and to every bird of every kind. And God saw that it was very good. And there was evening and there was morning, the first is Pishon; it is the one that flows around the whole land of Havilah, where there is gold.

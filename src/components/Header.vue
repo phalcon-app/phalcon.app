@@ -1,5 +1,5 @@
 <template>
-    <header class="header" :class="{sticky: $route.path === '/' || $route.path.includes('/projects/')}">
+    <header class="header sticky">
         <div class="container">
             <div class="left">
                 <g-link :to="{ name: 'home' }" class="home-link">
@@ -12,7 +12,7 @@
             </div>
             <nav class="nav right">
                 <g-link class="nav__link" to="/blog">Blog</g-link>
-                <g-link class="nav__link" to="/about">About</g-link>
+                <g-link class="nav__link" to="/page/about">About</g-link>
             </nav>
         </div>
     </header>
