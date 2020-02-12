@@ -1,11 +1,12 @@
 
 <!--img src="https://file-xidfrcjkaq.now.sh/" height="240"-->
 # Phalcon Apps
-Hi there 👋, I make some lovely apps.  
-``  
-``  
+**Hi there 👋, I make some lovely apps.**  
+&nbsp;  
+&nbsp;  
+&nbsp;  
 
-## Development
+### Development
 
 ```bash
 # install Gridsome globally
@@ -21,7 +22,7 @@ npm install
 npm run develop
 ```
 
-## Deploy with Netlify
+### Deploy with Netlify
 
 First, you need to have `yarn` and `gh-pages` install.
 
