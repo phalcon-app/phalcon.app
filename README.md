@@ -1,8 +1,9 @@
-<p align="center">
-  <!--img src="https://file-xidfrcjkaq.now.sh/" height="240"-->
-  <h3 align="center">Phalcon Apps</h3>
-  <p align="center">Hi there 👋, I make some lovely apps.<p>
-</p>
+
+<!--img src="https://file-xidfrcjkaq.now.sh/" height="240"-->
+# Phalcon Apps
+Hi there 👋, I make some lovely apps.  
+``  
+``  
 
 ## Development
 
