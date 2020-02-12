@@ -4,20 +4,18 @@
     <div class="container">
       <div class="journal-hero">
         <h1 class="journal-header">
-          this is our blog...
+          Our blog...
         </h1>
       </div>
     </div>
 
-    <g-link 
-      :to="item.node.path"
-      v-for="item in $page.posts.edges" 
-      :key="item.node.id"
-      class="journal-post"
-    >
+    <g-link :to="item.node.path" v-for="item in $page.posts.edges" :key="item.node.id" class="journal-post">
       <div class="container journal">
+
+        <g-image class="journal-image" :src="item.node.image" />
         <h2 class="journal-title">{{ item.node.title }}</h2>
         <p class="journal-excerpt">{{ item.node.excerpt }}</p>
+
       </div>
     </g-link>
       
@@ -32,6 +30,7 @@ query Journal {
         id
         path
         title
+        image (width: 768, height: 768, quality: 100)
         excerpt
       }
     }
@@ -46,7 +45,7 @@ export default {
 
 <style scoped>
 .container.journal {
-  max-width: 720px;
+  max-width: 920px;
 }
 .journal-hero {
   padding: 4rem 0;
@@ -59,6 +58,7 @@ export default {
   padding: 0;
   margin: 0;
 }
+
 .journal-post {
   display: block;
   padding: 2rem 0;
@@ -71,23 +71,27 @@ export default {
 .journal-post:hover {
   background-color: var(--color-base-1);
 }
-.journal-post:hover > * {
-  transform: translateX(4rem);
-}
-.journal-post h1,
-.journal-post h2 {
-  margin: 0;
-  padding: 0;
+.journal-image {
+  float: left;
+  width: 100%;
+  margin: 0 0 20px;
 }
 .journal-title {
   font-size: 2rem;
   color: var(--color-contrast);
+  margin: 0 0 2rem 0;
+  padding: 0;
 }
 .journal-excerpt {
   color: var(--color-contrast-1);
 }
 
 @media (min-width: 560px) {
+  .journal-image {
+    float: left;
+    width: 140px;
+    margin: 0 50px 0 0;
+  }
   .journal-post {
     padding: 3rem 0;
   }
