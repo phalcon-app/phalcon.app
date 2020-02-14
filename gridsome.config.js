@@ -3,8 +3,7 @@
 
 module.exports = {
   siteName: "Phalcon Apps",
-  siteUrl: 'https://victor-falcon.github.io/',
-  pathPrefix: '/phalcon.app',
+  siteUrl: 'https://phalcon.app/',
   host: "0.0.0.0",
   titleTemplate: "%s",
   siteDescription: "We try to make small but usefull apps",
