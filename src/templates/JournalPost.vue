@@ -1,6 +1,7 @@
 <template>
   <Layout>
     <div class="journal">
+
       <div class="container">
 
         <div class="journal-header">
@@ -26,6 +27,7 @@
         <JournalContent :content="$page.post.content" />
 
       </div>
+
     </div>
   </Layout>
 </template>
@@ -65,7 +67,7 @@ export default {
 
 <style scoped>
 .journal-header {
-  padding: 2rem 0 4rem 0;
+  padding: 20vh 0 0 0;
 }
 .journal-title {
   font-size: 4rem;
