@@ -22,7 +22,7 @@
           </div>          
         </div>
 
-        <g-image class="journal-image" :src="$page.post.image" />
+        <g-image class="journal-image" :src="$page.post.image" v-if="$page.post.image" />
 
         <JournalContent :content="$page.post.content" />
 

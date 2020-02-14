@@ -9,7 +9,7 @@
           <p class="page-sub-title" v-html="$page.post.sub_title" />
         </div>
 
-        <g-image class="page-image" :src="$page.post.image" />
+        <g-image class="page-image" :src="$page.post.image" v-if="$page.post.image" />
 
         <JournalContent :content="$page.post.content" />
 
