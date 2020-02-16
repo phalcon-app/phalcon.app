@@ -10,7 +10,7 @@ project_fg_color: '#1d1e22'
 
 With the focus in made a simple, but useful app, that need no time to manage born **Worke.app**.
 
-Available in 🤖 [Android]() and *coming soon to* 🍎 *iOS*.
+Available in 🤖 [Android](https://play.google.com/store/apps/details?id=app.phalcon.worke_app) and *coming soon to* 🍎 *iOS*.
 
 1. [FAQ](#faq)
 2. [Changelist](#changelist)
