@@ -22,7 +22,7 @@
           </div>          
         </div>
 
-        <g-image class="journal-image" :src="$page.post.image" v-if="$page.post.image" />
+        <g-image class="journal-image" :src="$page.post.image" v-if="showImage" />
 
         <JournalContent :content="$page.post.content" />
 
@@ -40,6 +40,7 @@ query JournalPost ($path: String!) {
     date (format: "D. MMMM YYYY")
     timeToRead
     image (width: 1024, height: 768, quality: 100)
+    image_hide
     content
   }
 }
@@ -51,6 +52,11 @@ import JournalContent from "@/components/JournalContent"
 export default {
   components: {
     JournalContent
+  },
+  computed: {
+    showImage: function () {
+      return this.$page.post.image_hide != true;
+    }
   },
   data() {
     return {

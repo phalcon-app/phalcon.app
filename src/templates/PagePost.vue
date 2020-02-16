@@ -9,7 +9,7 @@
           <p class="page-sub-title" v-html="$page.post.sub_title" />
         </div>
 
-        <g-image class="page-image" :src="$page.post.image" v-if="$page.post.image" />
+        <g-image class="page-image" :src="$page.post.image" v-if="showImage" />
 
         <JournalContent :content="$page.post.content" />
 
@@ -23,6 +23,7 @@
 query PagePost ($path: String!) {
   post: pagePost (path: $path) {
     title
+    image_hide
     sub_title
     excerpt
     image (width: 1024, height: 768, quality: 100)
@@ -37,6 +38,11 @@ import JournalContent from "@/components/JournalContent"
 export default {
   components: {
     JournalContent
+  },
+  computed: {
+    showImage: function () {
+      return this.$page.post.image_hide != true;
+    }
   },
   data() {
     return {
