@@ -13,8 +13,11 @@
       <div class="container journal">
 
         <g-image class="journal-image" :src="item.node.image" />
-        <h2 class="journal-title">{{ item.node.title }}</h2>
-        <p class="journal-excerpt">{{ item.node.excerpt }}</p>
+
+        <div class="journal-content">
+          <h2 class="journal-title">{{ item.node.title }}</h2>
+          <p class="journal-excerpt">{{ item.node.excerpt }}</p>
+        </div>
 
       </div>
     </g-link>
@@ -46,6 +49,11 @@ export default {
 <style scoped>
 .container.journal {
   max-width: 920px;
+}
+.container.journal::after {
+  display: block;
+  content: "";
+  clear: both;
 }
 .journal-hero {
   padding: 4rem 0;
@@ -89,9 +97,14 @@ export default {
 @media (min-width: 560px) {
   .journal-image {
     float: left;
-    width: 140px;
-    margin: 0 50px 0 0;
+    width: 20%;
+    margin: 0;
   }
+  .journal-content {
+    float: right;
+    width: 75%;
+  }
+
   .journal-post {
     padding: 3rem 0;
   }

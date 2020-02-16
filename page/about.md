@@ -1,6 +1,6 @@
 ---
 title: About
-image: ""
+image: "/uploads/workeapp-prerelease.png"
 sub_title: Hi 👋! I'm an indie developer trying to make lovely apps.
 ---
 
