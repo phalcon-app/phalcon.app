@@ -2,7 +2,7 @@
 thumbnail: "/uploads/workeapp-prerelease.png"
 image: "/uploads/workeapp-prerelease.png"
 title: Worke.app
-date: 2020-02-01
+date: 2020-02-17
 sub_title: is your mate to improve your strength and gain muscle mass 💪 by knowing how you'r training.
 project_bg_color: '#fff'
 project_fg_color: '#1d1e22'
@@ -25,5 +25,5 @@ You must track you best lifts of each main exercise. The app will calculate the 
 This app give you the tools to easily know the intensity of your workout and you will know if you are improving or not.
 
 ## Changelist
-### 1.0.0 (Coming soon)
+### 1.0.0 - 17 feb, 20
 - 🆕 Android first release. 

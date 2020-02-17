@@ -1,5 +1,5 @@
 ---
-date: 2020-02-16
+date: 2020-02-12
 title: "Worke.app pre-release: Try this app before everybody!"
 author: Víctor Falcón
 image: "/uploads/workeapp-icon.png"
