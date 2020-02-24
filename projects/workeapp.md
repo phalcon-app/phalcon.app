@@ -25,5 +25,11 @@ You must track you best lifts of each main exercise. The app will calculate the 
 This app give you the tools to easily know the intensity of your workout and you will know if you are improving or not.
 
 ## Changelist
+### 1.1.1 - 23 feb, 20
+- 🇪🇸 The app it's now fully translated into Spanish.
+- 📝 You can edit exercises with a long press.
+- 📝 The same with every lift.
+- 🐛 Fix some small errors that only I can see.
+
 ### 1.0.0 - 17 feb, 20
 - 🆕 Android first release. 
